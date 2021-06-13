@@ -1,0 +1,275 @@
+/Users/lukasz47/Projects/Diabetes/Diabetes/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/lukasz47/Projects/Diabetes/Diabetes/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/lukasz47/Projects/Diabetes/Diabetes/bin/Debug/netcoreapp3.1/Diabetes.deps.json
+/Users/lukasz47/Projects/Diabetes/Diabetes/bin/Debug/netcoreapp3.1/Diabetes.runtimeconfig.json
+/Users/lukasz47/Projects/Diabetes/Diabetes/bin/Debug/netcoreapp3.1/Diabetes.runtimeconfig.dev.json
+/Users/lukasz47/Projects/Diabetes/Diabetes/bin/Debug/netcoreapp3.1/Diabetes.dll
+/Users/lukasz47/Projects/Diabetes/Diabetes/bin/Debug/netcoreapp3.1/Diabetes.pdb
+/Users/lukasz47/Projects/Diabetes/Diabetes/bin/Debug/netcoreapp3.1/Diabetes.Views.dll
+/Users/lukasz47/Projects/Diabetes/Diabetes/bin/Debug/netcoreapp3.1/Diabetes.Views.pdb
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Diabetes.csprojAssemblyReference.cache
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Diabetes.AssemblyInfoInputs.cache
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Diabetes.AssemblyInfo.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Diabetes.csproj.CoreCompileInputs.cache
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Diabetes.MvcApplicationPartsAssemblyInfo.cache
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Diabetes.RazorAssemblyInfo.cache
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Diabetes.RazorAssemblyInfo.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/staticwebassets/Diabetes.StaticWebAssets.Manifest.cache
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/staticwebassets/Diabetes.StaticWebAssets.xml
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/scopedcss/bundle/Diabetes.styles.css
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Diabetes.TagHelpers.input.cache
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Diabetes.TagHelpers.output.cache
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Diabetes.RazorCoreGenerate.cache
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Diabetes.RazorTargetAssemblyInfo.cache
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Diabetes.RazorTargetAssemblyInfo.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Diabetes.Views.pdb
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Diabetes.dll
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Diabetes.pdb
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Diabetes.genruntimeconfig.cache
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Diabetes.csproj.CopyComplete
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Razor/Pages/FoodPage.cshtml.g.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Razor/Pages/AddMeal.cshtml.g.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Razor/Pages/Info.cshtml.g.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Razor/Pages/Search.cshtml.g.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Razor/Pages/Contact.cshtml.g.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/bin/Debug/netcoreapp3.1/mono_crash.11a6748113.0.json
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Razor/Pages/List.cshtml.g.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Razor/Pages/Login.cshtml.g.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Razor/Pages/Plate.cshtml.g.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Razor/Pages/MealPage.cshtml.g.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Create.cshtml.g.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/bin/Debug/netcoreapp3.1/mono_crash.11a6748113.1.json
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Logout.cshtml.g.cs
+/Users/lukasz47/Projects/Diabetes/Diabetes/obj/Debug/netcoreapp3.1/Razor/Pages/Insulina.cshtml.g.cs
+F:\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\appsettings.Development.json
+F:\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\appsettings.json
+F:\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\mono_crash.11a6748113.0.json
+F:\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\mono_crash.11a6748113.1.json
+F:\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.exe
+F:\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.deps.json
+F:\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.runtimeconfig.json
+F:\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.runtimeconfig.dev.json
+F:\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.dll
+F:\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.pdb
+F:\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.Views.dll
+F:\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.Views.pdb
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.csprojAssemblyReference.cache
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.AssemblyInfoInputs.cache
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.AssemblyInfo.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.csproj.CoreCompileInputs.cache
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.MvcApplicationPartsAssemblyInfo.cache
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorAssemblyInfo.cache
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorAssemblyInfo.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\staticwebassets\Diabetes.StaticWebAssets.Manifest.cache
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\staticwebassets\Diabetes.StaticWebAssets.xml
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\scopedcss\bundle\Diabetes.styles.css
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.TagHelpers.input.cache
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.TagHelpers.output.cache
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorCoreGenerate.cache
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\AddMeal.cshtml.g.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Create.cshtml.g.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Logout.cshtml.g.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Contact.cshtml.g.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\FoodPage.cshtml.g.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Info.cshtml.g.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\List.cshtml.g.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\MealPage.cshtml.g.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Plate.cshtml.g.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Search.cshtml.g.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorTargetAssemblyInfo.cache
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorTargetAssemblyInfo.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.Views.pdb
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.dll
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.pdb
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.genruntimeconfig.cache
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.csproj.CopyComplete
+F:\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+F:\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+F:\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+F:\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+F:\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Edit.cshtml.g.cs
+F:\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Delete.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\mono_crash.11a6748113.0.json
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\mono_crash.11a6748113.1.json
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.exe
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.deps.json
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.runtimeconfig.json
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.runtimeconfig.dev.json
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.dll
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.pdb
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.Views.dll
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.Views.pdb
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.csprojAssemblyReference.cache
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.AssemblyInfoInputs.cache
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.AssemblyInfo.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.csproj.CoreCompileInputs.cache
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorAssemblyInfo.cache
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorAssemblyInfo.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\staticwebassets\Diabetes.StaticWebAssets.Manifest.cache
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\staticwebassets\Diabetes.StaticWebAssets.xml
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\scopedcss\bundle\Diabetes.styles.css
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.TagHelpers.input.cache
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.TagHelpers.output.cache
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorCoreGenerate.cache
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\AddMeal.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Create.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Delete.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Edit.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Logout.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Contact.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\FoodPage.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Info.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\List.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\MealPage.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Plate.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Search.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorTargetAssemblyInfo.cache
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorTargetAssemblyInfo.cs
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.Views.pdb
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.csproj.CopyComplete
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.dll
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.pdb
+C:\Users\pawi0\Desktop\Diabetes (1)\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.genruntimeconfig.cache
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\mono_crash.11a6748113.0.json
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\mono_crash.11a6748113.1.json
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.exe
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.deps.json
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.runtimeconfig.json
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.runtimeconfig.dev.json
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.dll
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.pdb
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.Views.dll
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.Views.pdb
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.csproj.AssemblyReference.cache
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.AssemblyInfoInputs.cache
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.AssemblyInfo.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorAssemblyInfo.cache
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorAssemblyInfo.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\staticwebassets\Diabetes.StaticWebAssets.Manifest.cache
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\staticwebassets\Diabetes.StaticWebAssets.xml
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\scopedcss\bundle\Diabetes.styles.css
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.TagHelpers.input.cache
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.TagHelpers.output.cache
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorCoreGenerate.cache
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\AddMeal.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Create.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Delete.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Edit.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Logout.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Contact.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\FoodPage.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Info.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\List.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\MealPage.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Plate.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Search.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorTargetAssemblyInfo.cache
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorTargetAssemblyInfo.cs
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.Views.pdb
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.csproj.CopyComplete
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.dll
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.pdb
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.genruntimeconfig.cache
+C:\Users\Łukasz\Desktop\Diabetes-20210605T185633Z-001\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\FoodPage2.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.csproj.AssemblyReference.cache
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.AssemblyInfoInputs.cache
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.AssemblyInfo.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorAssemblyInfo.cache
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorAssemblyInfo.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\staticwebassets\Diabetes.StaticWebAssets.Manifest.cache
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\staticwebassets\Diabetes.StaticWebAssets.xml
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\scopedcss\bundle\Diabetes.styles.css
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.TagHelpers.input.cache
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.TagHelpers.output.cache
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorCoreGenerate.cache
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\AddMeal.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Create.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Delete.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Edit.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Logout.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Contact.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\FoodPage.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\FoodPage2.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Info.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\List.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\MealPage.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Plate.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Search.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorTargetAssemblyInfo.cache
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.RazorTargetAssemblyInfo.cs
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.dll
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.pdb
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\mono_crash.11a6748113.0.json
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\mono_crash.11a6748113.1.json
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.exe
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.deps.json
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.runtimeconfig.json
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.runtimeconfig.dev.json
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.dll
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.pdb
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.Views.dll
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\Diabetes.Views.pdb
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.Views.pdb
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.csproj.CopyComplete
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Diabetes.genruntimeconfig.cache
+C:\Users\Łukasz\Desktop\Diabetes v1.0\Diabetes\Diabetes\obj\Debug\netcoreapp3.1\Razor\Pages\DeleteSession.cshtml.g.cs

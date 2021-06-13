@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace Diabetes.Pages
+{
+    public class DeleteSessionModel : PageModel
+    {
+        public IActionResult OnGet()
+        {
+            HttpContext.Session.Remove("Plate");
+            return RedirectToPage("Index");
+        }
+    }
+}

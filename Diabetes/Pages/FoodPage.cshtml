@@ -1,0 +1,335 @@
+﻿@page
+@model Diabetes.Pages.FoodPageModel
+@{
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style>
+        body {
+            margin: 0;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+            div button {
+                background-color: #618ad0;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                font-family: Arial, Helvetica, sans-serif;
+                cursor: pointer;
+                font-style: normal;
+            }
+
+                div button:hover:not(.active) {
+                    background-color: #000;
+                    color: #618ad0;
+                }
+            div a {
+                background-color: #618ad0;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                font-family: Arial, Helvetica, sans-serif;
+                cursor: pointer;
+                font-style: normal;
+            }
+
+                div a:hover:not(.active) {
+                    background-color: #000;
+                    color: #618ad0;
+                }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #618ad0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            border-bottom: 1px solid #2d4e8f;
+        }
+
+        li {
+            float: left;
+            border-right: 1px solid #bbb;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-seri;
+            }
+
+                li a:hover:not(.active) {
+                    background-color: #000;
+                    color: #618ad0;
+                }
+
+        .active {
+            background-color: #61d07b;
+        }
+
+        .button {
+            background-color: #618ad0;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #F2F3F5;
+            color: gray;
+            font-size: small;
+            border-top: 1px solid #e5e5e5;
+            text-align: center;
+        }
+        button:hover {
+            opacity: 1;
+        }
+
+        .cancelbtn, .deletebtn {
+            width: 30%;
+        }
+
+        .cancelbtn {
+            background-color: #ccc;
+            color: black;
+        }
+
+        .cancelbtn2 {
+            background-color: #ccc;
+            color: black;
+        }
+
+        .deletebtn {
+            background-color: #f44336;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: #474e5d;
+            padding-top: 50px;
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto 15% auto;
+            border: 1px solid #888;
+            width: 80%;
+        }
+
+        hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+        }
+
+        .close {
+            position: absolute;
+            right: 35px;
+            top: 15px;
+            font-size: 40px;
+            font-weight: bold;
+            color: #f1f1f1;
+        }
+
+            .close:hover,
+            .close:focus {
+                color: #f44336;
+                cursor: pointer;
+            }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/all.min.css" />
+</head>
+<body>
+    <ul>
+        <li>
+            <a asp-page="/Index" style="text-decoration:none;">
+                Diabetes
+                <i class="far fa-circle fa-lg"></i>
+            </a>
+        </li>
+        <li>
+            <a asp-page="/Search" style="text-decoration:none;">
+                Szukaj potrawy
+                <i class="fas fa-search fa-lg"></i>
+            </a>
+        </li>
+        <li>
+            <a asp-page="/AddMeal" style="text-decoration:none;">
+                Stwórz posiłek
+                <i class="fas fa-plus fa-lg"></i>
+            </a>
+        </li>
+        <li>
+            <a asp-page="/Info" style="text-decoration:none;">
+                O chorobie
+                <i class="fas fa-book-medical fa-lg"></i>
+            </a>
+        </li>
+        <li>
+            <a asp-page="/List" style="text-decoration:none;">
+                Lista produktów
+                <i class="fas fa-list fa-lg"></i>
+            </a>
+        </li>
+        <li style="float:right">
+            <a asp-page="/Contact" style="text-decoration:none;">
+                Kontakt
+                <i class="fas fa-id-card-alt fa-lg"></i>
+            </a>
+        </li>
+        <li style="float:right">
+            @if (User.IsInRole("RealAdmin"))
+            {
+                <a asp-page="/Admin/Logout" style="text-decoration:none;">
+                    Logout
+                    <i class="fas fa-sign-in-alt fa-lg"></i>
+                </a>
+            }
+            else
+            {
+                <a asp-page="/Login" style="text-decoration:none;">
+                    Login
+                    <i class="fas fa-user fa-lg"></i>
+                </a>
+            }
+        </li>
+        <li style="float:right;border-left:none">
+            <a asp-page="/Plate" style="text-decoration:none;">
+                Twój posiłek
+                <i class="fas fa-utensils fa-lg"></i>
+            </a>
+        </li>
+    </ul>
+    <div class="container" style="margin-top:70px;text-align:center">
+        <h1 class="display-4">@Model.foodweight.name</h1>
+        <form method="post">
+            <br />
+            <b>100 g wybranego produktu zawiera:</b>
+            <br />
+            🍕 Kalorie: @Model.foodweight.calories kcal
+            <br />
+            🍭 Weglowodany: @Model.foodweight.carbohydrates g
+            <br />
+            🥛 Białka: @Model.foodweight.proteins g
+            <br />
+            🍳 Tłuszcze: @Model.foodweight.fats g
+            <br />
+            📈 Indeks glikemiczny: @Model.foodweight.glycemicIndex
+            <br />
+            📉 Ładunek glikemiczny: @Model.foodweight.glycemicLoad
+            <br />
+            Kategoria główna produktu: @Model.foodweight.category1.name
+            <br />
+            Kategoria pomocnicza produktu: @Model.foodweight.category2.name
+            <br />
+            <br />
+            W celu obliczenia wartości odżywczych dla konkretnej porcji, lub obliczenia dawki insuliny naciśnij przycisk Oblicz.
+            <br />
+            Produkt możesz dodać do talerza tylko w momencie gdy podasz wielkość porcji (poprzez naciśnięcie przycisku Oblicz).
+            <br />
+        </form>
+
+        <button onclick="document.getElementById('id01').style.display='block'">
+            Oblicz
+            <i class="fas fa-crutch"></i>
+        </button>        
+        <a asp-page="/List" style="text-decoration:none;" class="cancelbtn2">
+            Wróć
+            <i class="fas fa-arrow-left"></i>
+        </a>
+
+        <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Zamknij okno">×</span>
+            <form class="modal-content" method="post">
+                <div class="container" style="text-align:center">
+                    <h1>Podaj informacje</h1>
+                    Podaj informacje dotyczące porcji oraz przelicznika insulinowego.
+
+                    <div class="clearfix" style="text-align:center">
+                        Na 10g węglowodanów muszę przyjąć <input asp-for="insu" type="text" size="25" placeholder="Ilość insuliny na 10 g" /> jednostek insuliny.
+                        <br />
+                        <br />
+                        Planuję spożyć <input asp-for="weight" type="text" size="26" placeholder="Planowana porcja w gramach" /> g tego produktu.<br />
+                        <span asp-validation-for="weight" style="color:red"></span>
+                        <button onclick="document.getElementById('id01').style.display='none'" class="button" style="text-decoration:none">
+                            Oblicz
+                            <i class="fas fa-crutch"></i>
+                        </button>
+
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">
+                            Anuluj
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <script>
+            var modal = document.getElementById('id01');
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script><br />
+
+    </div>
+    <div class="footer">
+        Maj-Czerwiec 2021. Własność Łukasza Czapkowskiego©. Wszelkie prawa zastrzeżone.
+    </div>
+</body>
+</html>

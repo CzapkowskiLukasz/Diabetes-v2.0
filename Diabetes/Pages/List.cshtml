@@ -1,0 +1,311 @@
+﻿@page
+@model Diabetes.Pages.ListModel
+@{ }
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style>
+        body {
+            margin: 0;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+            div button {
+                background-color: #618ad0;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                font-family: Arial, Helvetica, sans-serif;
+                cursor: pointer;
+                font-style: normal;
+            }
+
+                div button:hover:not(.active) {
+                    background-color: #000;
+                    color: #618ad0;
+                }
+
+            div a {
+                background-color: #618ad0;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                font-family: Arial, Helvetica, sans-serif;
+                cursor: pointer;
+                font-style: normal;
+            }
+
+                div a:hover:not(.active) {
+                    background-color: #000;
+                    color: #618ad0;
+                }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #618ad0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            border-bottom: 1px solid #2d4e8f;
+        }
+
+        li {
+            float: left;
+            border-right: 1px solid #bbb;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-seri;
+            }
+
+                li a:hover:not(.active) {
+                    background-color: #000;
+                    color: #618ad0;
+                }
+
+        .active {
+            background-color: #61d07b;
+        }
+
+        .button {
+            background-color: #618ad0;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #F2F3F5;
+            color: gray;
+            font-size: small;
+            border-top: 1px solid #e5e5e5;
+            text-align: center;
+        }
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/all.min.css" />
+</head>
+<body>
+    <ul>
+        <li>
+            <a asp-page="/Index" style="text-decoration:none;">
+                Diabetes
+                <i class="far fa-circle fa-lg"></i>
+            </a>
+        </li>
+        <li>
+            <a asp-page="/Search" style="text-decoration:none;">
+                Szukaj potrawy
+                <i class="fas fa-search fa-lg"></i>
+            </a>
+        </li>
+        <li>
+            <a asp-page="/AddMeal" style="text-decoration:none;">
+                Stwórz posiłek
+                <i class="fas fa-plus fa-lg"></i>
+            </a>
+        </li>
+        <li>
+            <a asp-page="/Info" style="text-decoration:none;">
+                O chorobie
+                <i class="fas fa-book-medical fa-lg"></i>
+            </a>
+        </li>
+        <li>
+            <a class="active" asp-page="/List" style="text-decoration:none;">
+                Lista produktów
+                <i class="fas fa-list fa-lg"></i>
+            </a>
+        </li>
+        <li style="float:right">
+            <a asp-page="/Contact" style="text-decoration:none;">
+                Kontakt
+                <i class="fas fa-id-card-alt fa-lg"></i>
+            </a>
+        </li>
+        <li style="float:right">
+            @if (User.IsInRole("RealAdmin"))
+            {
+<a asp-page="/Admin/Logout" style="text-decoration:none;">
+    Logout
+    <i class="fas fa-sign-in-alt fa-lg"></i>
+</a> }
+            else
+            {
+<a asp-page="/Login" style="text-decoration:none;">
+    Login
+    <i class="fas fa-user fa-lg"></i>
+</a>            }
+        </li>
+        <li style="float:right;border-left:none">
+            <a asp-page="/Plate" style="text-decoration:none;">
+                Twój posiłek
+                <i class="fas fa-utensils fa-lg"></i>
+            </a>
+        </li>
+    </ul>
+    <div class="container" style="margin-top:70px;text-align:center">
+        <h1 class="display-4">Sprawdź naszą bazę danych!</h1>
+        <div>
+            Nie masz ochoty szukać produktów wpisując ich nazwę?
+            <br />
+            Żaden problem, możesz wyszukać ulubione produkty na liście, obejrzeć ich szczegóły lub dodać je bezpośrednio na talerz.
+            <br />
+            Wystarczy jedno kliknięcie!
+        </div>
+        <br />
+        @if (User.IsInRole("RealAdmin"))
+        {
+            <a class="button" asp-page="/Admin/Create" style="text-decoration:none;">
+                Dodaj produkt
+                <i class="fas fa-plus fa-lg"></i>
+            </a>
+            <br />
+            <br />
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">
+                            ID
+                        </th>
+                        <th scope="col">
+                            Nazwa
+                        </th>
+                        <th scope="col">
+                            Kalorie
+                        </th>
+                        <th scope="col">
+                            Węglowodany
+                        </th>
+                        <th scope="col">
+                            Indeks glikemiczny
+                        </th>
+                        <th scope="col">
+                            Kategoria
+                        </th>
+                        <th scope="col">Akcja</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var p in Model.foodlist)
+                    {
+                    <tr>
+                        <th scope="row" style="text-align:center">@Html.DisplayFor(m => p.id)</th>
+                        <td style="text-align:center">@Html.DisplayFor(m => p.name)</td>
+                        <td>@Html.DisplayFor(m => p.calories) kcal</td>
+                        <td>@Html.DisplayFor(m => p.carbohydrates) g</td>
+                        <td>@Html.DisplayFor(m => p.glycemicIndex)</td>
+                        <td>@Html.DisplayFor(m => p.category1.name)</td>
+                        <td>
+                            <a class="btn btn-primary" style="text-decoration:none" asp-page="FoodPage" asp-route-id=@p.id>
+                                Informacje
+                                <i class="fas fa-info"></i>
+                            </a>
+                            <a class="btn btn-primary" style="text-decoration:none" asp-page="/Admin/Edit" asp-route-id=@p.id>
+                                Edytuj
+                                <i class="fas fa-edit"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    }
+
+
+
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">
+                            Nazwa
+                        </th>
+                        <th scope="col">
+                            Kalorie
+                        </th>
+                        <th scope="col">
+                            Węglowodany
+                        </th>
+                        <th scope="col">
+                            Indeks glikemiczny
+                        </th>
+                        <th scope="col">
+                            Kategoria
+                        </th>
+                        <th scope="col">Akcja</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var p in Model.foodlist)
+                    {
+                    <tr>
+                        <th scope="row" style="text-align:center">@Html.DisplayFor(m => p.name)</th>
+                        <td>@Html.DisplayFor(m => p.calories) kcal</td>
+                        <td>@Html.DisplayFor(m => p.carbohydrates) g</td>
+                        <td>@Html.DisplayFor(m => p.glycemicIndex)</td>
+                        <td>@Html.DisplayFor(m => p.category1.name)</td>
+                        <td>
+                            <a class="btn btn-primary" style="text-decoration:none" asp-page="FoodPage" asp-route-id=@p.id>
+                                Informacje
+                                <i class="fas fa-info"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="footer">
+        Maj-Czerwiec 2021. Własność Łukasza Czapkowskiego©. Wszelkie prawa zastrzeżone.
+    </div>
+</body>
+</html>

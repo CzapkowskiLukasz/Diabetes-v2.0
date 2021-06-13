@@ -1,0 +1,361 @@
+﻿@page
+@model Diabetes.Pages.EditModel
+@{ }
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style>
+        body {
+            margin: 0;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+            div button {
+                background-color: #618ad0;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                font-family: Arial, Helvetica, sans-serif;
+                cursor: pointer;
+                font-style: normal;
+            }
+
+                div button:hover:not(.active) {
+                    background-color: #000;
+                    color: #618ad0;
+                }
+
+            div a {
+                background-color: #618ad0;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                font-family: Arial, Helvetica, sans-serif;
+                cursor: pointer;
+                font-style: normal;
+            }
+
+                div a:hover:not(.active) {
+                    background-color: #000;
+                    color: #618ad0;
+                }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #618ad0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            border-bottom: 1px solid #2d4e8f;
+        }
+
+        li {
+            float: left;
+            border-right: 1px solid #bbb;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-seri;
+            }
+
+                li a:hover:not(.active) {
+                    background-color: #000;
+                    color: #618ad0;
+                }
+
+        .active {
+            background-color: #61d07b;
+        }
+
+        .button {
+            background-color: #618ad0;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #F2F3F5;
+            color: gray;
+            font-size: small;
+            border-top: 1px solid #e5e5e5;
+            text-align: center;
+        }
+
+
+        button:hover {
+          opacity:1;
+        }
+
+        .cancelbtn, .deletebtn {
+          width: 30%;
+        }
+
+        .cancelbtn {
+          background-color: #ccc;
+          color: black;
+        }
+
+        .deletebtn {
+          background-color: #f44336;
+        }
+
+        .modal {
+          display: none; 
+          position: fixed; 
+          z-index: 1; 
+          left: 0;
+          top: 0;
+          width: 100%; 
+          height: 100%; 
+          overflow: auto; 
+          background-color: #474e5d;
+          padding-top: 50px;
+        }
+
+        .modal-content {
+          background-color: #fefefe;
+          margin: 5% auto 15% auto; 
+          border: 1px solid #888;
+          width: 80%; 
+        }
+
+        hr {
+          border: 1px solid #f1f1f1;
+          margin-bottom: 25px;
+        }
+
+        .close {
+          position: absolute;
+          right: 35px;
+          top: 15px;
+          font-size: 40px;
+          font-weight: bold;
+          color: #f1f1f1;
+        }
+
+        .close:hover,
+        .close:focus {
+          color: #f44336;
+          cursor: pointer;
+        }
+
+        .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
+}
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/all.min.css" />
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</head>
+<body>
+    <ul>
+        <li>
+            <a asp-page="/Index" style="text-decoration:none;">
+                Diabetes
+                <i class="far fa-circle fa-lg"></i>
+            </a>
+        </li>
+        <li>
+            <a asp-page="/Search" style="text-decoration:none;">
+                Szukaj potrawy
+                <i class="fas fa-search fa-lg"></i>
+            </a>
+        </li>
+        <li>
+            <a asp-page="/AddMeal" style="text-decoration:none;">
+                Stwórz posiłek
+                <i class="fas fa-plus fa-lg"></i>
+            </a>
+        </li>
+        <li>
+            <a asp-page="/Info" style="text-decoration:none;">
+                O chorobie
+                <i class="fas fa-book-medical fa-lg"></i>
+            </a>
+        </li>
+        <li>
+            <a asp-page="/List" style="text-decoration:none;">
+                Lista produktów
+                <i class="fas fa-list fa-lg"></i>
+            </a>
+        </li>
+        <li style="float:right">
+            <a asp-page="/Contact" style="text-decoration:none;">
+                Kontakt
+                <i class="fas fa-id-card-alt fa-lg"></i>
+            </a>
+        </li>
+        <li style="float:right">
+            @if (User.IsInRole("RealAdmin"))
+            {
+                <a asp-page="/Admin/Logout" style="text-decoration:none;">
+                    Logout
+                    <i class="fas fa-sign-in-alt fa-lg"></i>
+                </a> }
+            else
+            {
+                <a asp-page="/Login" style="text-decoration:none;">
+                    Login
+                    <i class="fas fa-user fa-lg"></i>
+                </a>}
+        </li>
+        <li style="float:right;border-left:none">
+            <a asp-page="/Plate" style="text-decoration:none;">
+                Twój posiłek
+                <i class="fas fa-utensils fa-lg"></i>
+            </a>
+        </li>
+    </ul>
+    <div class="container" style="margin-top:70px;text-align:center">
+        <h1 class="display-4">Edytuj produkt <b>@Model.foodold.name</b></h1>
+        <div>
+            Wartości odżywcze wpisuj w przeliczeniu na 100 g produktu
+            <br />
+            <form method="post">
+                Nazwa produktu:
+                <input asp-for="foodold.name" width="20" /><br />
+                <span asp-validation-for="foodold.name" style="color:red"></span>
+                <br />
+
+                Kalorie:
+                <input asp-for="foodold.calories" width="20" /><br />
+                <span asp-validation-for="foodold.calories" style="color:red"></span>
+                <br />
+
+                Węglowodany:
+                <input asp-for="carbohydrates" width="20" value="@Model.foodold.carbohydrates" /><br />
+                <span asp-validation-for="carbohydrates" style="color:red"></span>
+                <br />
+
+                Białka:
+                <input asp-for="proteins" width="20" value="@Model.foodold.proteins" /><br />
+                <span asp-validation-for="proteins" style="color:red"></span>
+                <br />
+
+                Tłuszcze:
+                <input asp-for="fats" width="20" value="@Model.foodold.fats" /><br />
+                <span asp-validation-for="fats" style="color:red"></span>
+                <br />
+                Indeks glikemiczny:
+                <input asp-for="foodold.glycemicIndex" width="20" /><br />
+                <span asp-validation-for="foodold.glycemicIndex" style="color:red"></span>
+                <br />
+                Kategoria główna:
+                <select asp-for="maincat">
+                    @for (int i = 0; i < Model.categories.Count; i++)
+                    {
+                        <option value="@Model.categories[i].id">@Model.categories[i].name</option>
+                    }
+                </select>
+                Kategoria pomocnicza
+                <select asp-for="seccat">
+                    <option value="-1">brak</option>
+                    @for (int i = 0; i < Model.categories.Count; i++)
+                    {
+                        <option value="@Model.categories[i].id">@Model.categories[i].name</option>
+                    }
+                </select>
+                <br />
+                <br />
+
+                <button>
+                    Edytuj
+                    <i class="fas fa-edit"></i>
+                </button>
+
+                <a asp-page="../List" style="text-decoration:none" class="cancelbtn">
+                    Wróć
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+
+            </form>
+
+            <button onclick="document.getElementById('id01').style.display='block'" class="deletebtn">Usuń produkt
+            <i class="far fa-trash-alt"></i></button>
+
+            <div id="id01" class="modal">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Zamknij okno">×</span>
+                <form class="modal-content">
+                    <div class="container" style="text-align:center">
+                        <h1>Usuń produkt</h1>
+
+                        Czy na pewno chcesz usunąć produkt?
+
+                        <div class="clearfix" style="text-align:center">
+                            <a asp-page="Delete" asp-route-id="@Model.id" onclick="document.getElementById('id01').style.display='none'" class="deletebtn" style="text-decoration:none">Usuń
+                            <i class="far fa-trash-alt"></i></a>
+
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Anuluj
+                            <i class="fas fa-arrow-left"></i></button>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <script>
+                var modal = document.getElementById('id01');
+                window.onclick = function (event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+            </script>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+
+
+    <div class="footer">
+        Maj-Czerwiec 2021. Własność Łukasza Czapkowskiego©. Wszelkie prawa zastrzeżone.
+    </div>
+</body>
+</html>
